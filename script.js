@@ -62,21 +62,20 @@ console.log(randomNum);
 
 // Задание 6
 
-function getRandomArray(number) {
-  const randomArray = [];
-  const arrayLength = number * 2;
-
-  while (randomArray.length < arrayLength) {
-    const randomNumber = Math.floor(Math.random() * (number + 1));
-    randomArray.push(randomNumber);
-  }
-
-  return randomArray;
+function getRandomArrNumbers(number) {
+    let length = Math.floor(number / 2); 
+    let arr = [];
+  
+    for (let i = 0; i < length; i++) {
+      let randomNum = Math.floor(Math.random() * (number + 1)); 
+      arr.push(randomNum); 
+    }
+  
+    return arr;
 }
-
-const inputNumber = 5;
-const resultArray = getRandomArray(inputNumber);
-console.log(resultArray); 
+  
+console.log(getRandomArrNumbers(7));
+console.log(getRandomArrNumbers(12));
 
 
 // Задание 7
