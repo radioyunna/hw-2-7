@@ -1,12 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Games</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     
+     <header class="header center">
+        <div class="header__content">
+        <h1 class="header__content_title">Добро пожаловать на мой сайт!</h1>
+        <p class="header__content_text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span class="header__content_span">поехали</span> и <span class="header__content_span">приступай</span></p>
+        <button class="header__content_button">Поехали!</button>
+        </div>
+    </header>
+
+    <div class="games center">
+        <div class="games__choice">
+           <div class="game_1 games__choice_text">Игра 1</div>
+           <div class="game_2 games__choice_text">Игра 2</div>
+           <div class="game_3 games__choice_text">Игра 3</div>
+        </div>
+    </div>
+<<<<<<< HEAD
+    
+=======
+ 
+>>>>>>> main
+
+    <div class="seasons center">
+        <div class="seasons__left">
+        <h1 class="seasons__left_title">Времена года!</h1>
+        <p class="seasons__left_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+        <button onclick="season()" class="seasons__left_button">Поехали</button>
+        </div>
+        <div class="seasons__right">
+        <img class="seasons__right_videogame" src="img/video_game.svg">
+        </div>
+    </div>
+
+    <div class="remember center">
+        <div class="remember__right">
+            <h1 class="remember__right_title">Запомни слова</h1>
+            <p class="remember__right_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+            <button onclick="gameTwo()" class="remember__right_button">Играть!</button>
+        </div>
+        <div class="remember__left">
+            <img src="img/remember.svg" class="remember__left_img">
+        </div>
+    </div>
+    
+    <div class="puzzle center">
+        <h1 class="puzzle_title">Игра в загадки</h1>
+        <p class="puzzle_text">Компьютер загадывает загадку, вам необходимо ее угадать, если вы дадите не правильный ответ, то компьютер даст вам подсказку. У вас будет три попытки и две подсказки.</p>
+        <button class="puzzle_button">Играть!</button>
+    </div>
+
+    <footer class="footer center">
+        <h1 class="footer_text">Все права защищены</h1>
+    </footer>
+    <script src="game.js"></script>
 </body>
-<script scr="script.js"></script>
+
 </html>

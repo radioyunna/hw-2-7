@@ -1,0 +1,238 @@
+@media (max-width: 476px) {
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .header {
+        background-image: url(img/mobileback.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+	    background-size: cover;
+        height: 735px;
+
+        &__content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 33px;
+            padding-top: 239px;
+
+            &_title {
+                color: #FFF;
+                text-align: center;
+                font-size: 32px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            &_text {
+                color: #FFF;
+                text-align: center;
+                font-size: 14px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px;
+            }
+            &_button {
+                color: #FFF;
+                font-size: 18px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                border-radius: 30px;
+                background: #9C0332;
+                width: 234px;
+                height: 48px;
+                &:hover {
+                    border-radius: 30px;
+                    background: #EB443F;
+                 }
+             }
+        }
+    }
+
+    .games__choice {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .game {
+        &_1 {
+            width: 343px;
+            height: 300px;
+        }
+
+        &_2 {
+            width: 343px;
+            height: 300px;
+        }
+
+        &_3 {
+            width: 343px;
+            height: 300px;
+        }
+    }
+
+    .seasons {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+
+        &__right {
+            width: 344px;   
+            height: 236px;
+            align-items: center;
+        }
+
+        &__left {
+            align-items: center;
+
+            &_title {
+                color: #FFF;
+                font-size: 32px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                align-items: center;
+            }
+
+            &_text {
+                color: #FFF;
+                font-size: 14px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px;
+                align-items: center;
+
+            }
+
+            &_button {
+                width: 234px;
+                border-radius: 30px;
+                background: #9C0332;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 13px;
+                padding-bottom: 13px;
+                align-items: center;
+                &:hover {
+                    border-radius: 30px;
+                    background: #EB443F;
+                }
+            }
+        }
+    }
+<<<<<<< HEAD
+
+    .remember {
+        padding-top: 51px;
+        padding-bottom: 85px;
+        gap: 64px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+
+        &__left {
+            height: 231px;
+            align-items: center;
+        }
+        &__right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-items: center;
+            gap: 32px;
+
+            &_title {
+                color: #FFF;
+                text-align: center;
+                font-family: Montserrat;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            &_text {
+                color: #FFF;
+                text-align: center; 
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 300;
+                line-height: 22px;
+            }
+
+            &_button {
+                align-items: center;
+                width: 234.063px;
+                height: 48.603px;
+                background: #9C0332;
+                color: #FFF;
+                font-size: 18px;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding-top: 13px;
+                padding-bottom: 13px;
+
+                &:hover {
+                    border-radius: 30px;
+                    background: #EB443F;
+                }
+            }
+        }
+    }
+    
+    .puzzle {
+        &_text {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+        }
+        &_title {
+            color: #FFF;
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        &_button {
+            width: 234.063px;
+            height: 48.603px;
+            flex-shrink: 0;
+        }
+    }
+
+}
+=======
+}
+>>>>>>> main

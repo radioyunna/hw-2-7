@@ -1,0 +1,350 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+  
+img {
+	max-width: 100%;
+}
+  
+* {
+	margin: 0;
+	padding: 0;
+}
+
+  
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.header {
+	height: 1024px;
+	background-image: url(img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  
+
+  &__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 32px;
+		padding-top: 217px;
+ 	
+  
+	&_title {
+			color: #FFF;
+			font-size: 64px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+
+	&_text {
+			color: #FFF;
+			font-size: 18px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 32px;
+		}
+
+		&_button {
+			border-radius: 30px;
+			background: #9C0332;
+			color: #FFF;
+			font-size: 18px;
+			font-family: Montserrat;
+			font-style: normal;
+			font-weight: 400;
+			line-height: normal;
+			padding-left: 74px;
+			padding-right: 74px;
+			padding-top: 13px;
+			padding-bottom: 13px;
+		}
+
+		&_button:hover {
+			border-radius: 30px;
+			background: #EB443F;
+		}
+
+		&_span {
+			font-weight: 1000;
+			font-size: 18px;
+			line-height: 32px;
+		}	
+	}
+}
+
+
+.games {
+	background-image: url(img/gamebackground.png);
+
+	&__choice {
+		padding-top: 128px;
+		padding-bottom: 128px;
+		display: flex;
+		gap: 32px;
+		color: transparent;
+	}
+	&_text:hover {
+		color: #ffffff;
+		font-size: 24px;
+		font-family: Montserrat;
+		font-weight: 600;
+		line-height: 32px;
+	}
+}
+
+.game {
+	display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+
+	&_1 {
+		background-image: url(img/G1.svg);
+		background-repeat: no-repeat;
+		padding-left: 32px;
+		padding-bottom: 32px;
+		width: 379px;
+		height: 300px;
+		color: #FFF;
+		font-size: 24px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		border-radius: 16px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-end;
+
+		&:hover {
+            border: 3px solid #f7f8f8;
+            border-radius: 16px;
+		}
+	}
+
+	&_2 {
+		background-image: url(img/G2.svg);
+		background-repeat: no-repeat;
+		padding-left: 32px;
+		padding-bottom: 32px;
+		width: 379px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-end;
+		color: #FFF;
+		font-size: 24px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		border-radius: 16px;
+
+		&:hover {
+            border: 3px solid #f7f8f8;
+            border-radius: 16px;
+		}
+	}
+	
+	&_3 {
+		background-image: url(img/G3.svg);
+		background-repeat: no-repeat;
+		padding-left: 32px;
+		padding-bottom: 32px;
+		width: 379px;
+		height: 300px;
+		color: #FFF;
+		font-size: 24px;
+		font-family: Montserrat;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-end;
+		border-radius: 16px;
+
+		&:hover {
+            border: 3px solid #f7f8f8;
+            border-radius: 16px;
+		}
+	}
+}
+.seasons {
+	background-image: url(img/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	gap: 135px;
+
+	&__left {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		gap: 32px;
+
+		&_title {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+		&_text {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 32px; 
+		}
+
+		&_button {
+			width: 234.063px;
+			height: 48.603px;
+			border-radius: 30px;
+			background: #9C0332;
+			color: #FFF;
+			font-size: 18px;
+		}
+	}
+}
+
+.seasons_right {
+	height: 485px;
+	padding-right: 116px;
+}
+
+.remember {
+	background-image: url(img/remember_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+	gap: 135px;
+
+	&__left {
+		height: 322px
+	}
+
+	&__right {
+
+		&_title {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 48px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: normal;
+		}
+		&_text {
+			color: #FFF;
+			font-family: Montserrat;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 300;
+			line-height: 32px; 
+		}
+
+		&_button {
+			width: 234.063px;
+			height: 48.603px;
+			border-radius: 30px;
+			background: #9C0332;
+			color: #FFF;
+			font-size: 18px;
+		}
+	}
+}
+
+.puzzle {
+
+	background-image: url(img/puzzle_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 800px;
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+	gap: 32px;
+
+	&_title {
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 48px;
+		font-style: normal;
+		font-weight: 700;
+		line-height: normal;	
+	}
+
+	&_text {
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: 300;
+		line-height: 32px; 
+		text-align: center;
+	}
+
+	&_button {
+		width: 234.063px;
+		height: 48.603px;
+		border-radius: 30px;
+		background: #9C0332;
+		color: #FFF;
+		font-size: 18px;
+	}
+}
+
+.footer {
+	background-image: url(img/footer_back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 80px;
+
+	&_text {
+		color: #FFF;
+		font-family: Montserrat;
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: normal;
+		text-align: center;
+		padding-top: 32px
+	}
+}
+
+@import '_mobile';
